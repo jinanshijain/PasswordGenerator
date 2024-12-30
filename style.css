@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCFCF;
+    text-align: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+}
+.main-container>h1{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #F72C5B;
+    font-weight: 900;
+
+}
+.pass-container{
+    width: 150%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    margin: 2rem 0;
+    border-bottom: 12px solid #FFE2E2;
+}
+.password{
+    width: 82%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+#genereatedpassword{
+    padding: 20px;
+  
+}
+
+#copy,#refresh{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    
+}
+.pass-prop{
+   
+    width: 150%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #86A788;
+    border-radius: 20px;
+    box-shadow: 5px 2px 40px rgba(3, 3, 3, 0.15);
+}
+.pass-prop>h3{
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f0f2f5;
+    border-radius: 6px;
+}
+.properties{
+    display: flex;
+    height: 10rem;
+
+}
+.length{
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.length>label{
+  font-size: 1.2rem;
+  text-align: center;
+  
+
+}
+#textInput{
+  height: 30px;
+  width: 70px;
+  border-radius: 16px;
+  border: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+#rangeInput{
+    height: 20px;
+    margin: 20px;
+    width: 180px;
+    
+}
+.alphabets{
+    width: 30%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.copy-btn{
+    width: 14rem;
+    height: auto;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2rem;
+    background-color: #F72C5B;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    font-size: 18px;
+}
+.copy-btn:hover{
+    background-color: black;
+}
